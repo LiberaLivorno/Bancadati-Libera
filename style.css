@@ -1,0 +1,198 @@
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(184, 218, 227, 0.5);
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+p.main{
+  text-align: justify;
+}
+section > .container{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.Esplora{
+  margin-top: 30px;
+  padding-top: 20px; 
+  padding-bottom: 20px;  
+  background-color: #212529; 
+}
+.esplora-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.esplora-card {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.esplora-card-left {
+  margin-left: 75px;
+}
+.esplora-card-right {
+  margin-right: 75px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("imagini/silenzio.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grafico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:focus {
+  background-color: rgb(184, 189, 200);
+}
+.breadcrumb{
+  margin-top: 20px;
+  margin-left: 57px;
+  background-color: rgb(184, 189, 200);
+  max-width: fit-content;
+  padding: 10px 13px;
+}
+.link{
+  color: rgb(85, 134, 240); text-decoration: none;
+}
+.dropdown-toggle{
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 10px 30px;
+  width: 50%;
+}
+h5{
+  margin-left: 10px;
+}
+.bottone1{
+  text-align: center;
+  width: max-content;
+}
+.nav-tabs{
+  align-items: center;
+}
+.nav-tabs.raised {
+  margin-top: 30px;
+}
+#bottone1{
+  background-color: rgb(248, 91, 177);
+  color: black;
+}
+#bottone2{
+  background-color: rgb(255, 155, 68);
+  color: black;
+}
+#bottone3{
+  background-color: rgb(255, 246, 78);
+  color: black;
+}
+#bottone4{
+  background-color: rgb(170, 189, 183);
+  border-color: rgb(58, 89, 103);
+  color: rgb(0, 0, 0, 0.8);
+}
+ul.nav-tabs{
+  justify-content: center;
+  border-color: rgb(33, 37, 41, 0.5);
+}
+#link1{
+  text-decoration: none;
+  color: rgb(255, 242, 0);
+  border-color: rgb(33, 37, 41, 0.5);
+  border-bottom: none;
+
+}
+#link2{
+  text-decoration: none;
+  color: rgb(255, 155, 68);
+  border-color: rgb(33, 37, 41, 0.5);
+  border-bottom: none;
+}
+#link3{
+  text-decoration: none;
+  color: rgb(248, 91, 177);
+  border-color: rgb(33, 37, 41, 0.5);
+  border-bottom: none;
+}
+#link0{
+  border-color: rgb(33, 37, 41, 0.5);
+  border-bottom: none;
+  color: #212529;
+}
+.row.card-row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.row.card-row > [class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-md-3, .col-md-9 {
+  padding-left: 0;
+}
+.dropdown-halfwidth {
+  width: 50% !important;
+  min-width: 0 !important;
+}
+#appello{
+  width: 400px;
+  height: 400px;
+  
+}
+.metadati-table {
+  background-color: rgb(184, 189, 200);
+  border: 2px solid #b0b0b0;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  max-width: 1000px;      
+  margin-left: auto;    
+  margin-right: auto; 
+}
+
+.metadati-table .row {
+  border-bottom: 1px solid #a0a0a0;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.metadati-table .row:last-child {
+  border-bottom: none;
+}
+.align-text-bottom{
+  font-size: small;
+}
+@media (min-width: 768px) {
+  #appello, .card.h-100 {
+    min-height: 350px;
+  }
+}
+.testo-table {
+  background-color: #c78c8c;
+  border: 2px solid #8e5c5c;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  max-width: 800px;      
+  margin-left: auto;    
+  margin-right: auto; 
+}
+
+.testo-table .row {
+  border-bottom: 1px solid #8e5c5c;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.testo-table .row:last-child {
+  border-bottom: none;
+}
