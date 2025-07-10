@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="it">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="DC.Title" content="Bancadati Libera">
+    <meta name="DC.Creator" content="Libera Livorno">
+    <meta name="DC.Subject" content="Storia della mafia e cultura dell'antimafia">
+    <meta name="DC.Description" content="La Bancadati Libera nasce dalla necessità di fornire ad educatori e studiosi delle mafie uno strumento per accedere rapidamente a fonti con cui approfondire la propria conoscenza,
+           o di fornire indicazioni a chiunque voglia approfondirne la storia delle mafie e dell'antimafia. Il Catalogo prevede tre tipologie di media culturali divisi per categorie e tema: film, libri e musica.">
+    <meta name="DC.Publisher" content="Libera Livorno">
+    <meta name="DC.Contributor" content="Andrea Flavio Rossi">
+    <meta name="DC.Date" content="2025-07-09">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://liberalivorno.github.io/Bancadati-Libera/">
+    <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="IT\ICCU\DDS\1688358">
+    <meta name="DC.Relation" content="ITB001100099">
+    <link rel="DC.Coverage" href="https://liberalivorno.github.io/Bancadati-Libera/">
+    <meta name="DC.Rights" content="CC BY-NC-ND 4.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="type/jpeg" href="imagini/Logo_Libera.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bancadati Libera</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1">
+          <img src="imagini/Logo_Libera.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Bancadati Libera</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#Il-Progetto">Il Progetto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Esplora
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Catalogo.html"><img src="imagini/list-task.svg"> Catalogo</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="javascript:void(0)"><img src="imagini/pin-map.svg"> Mappa</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)"><img src="imagini/graph-up.svg"> Linea del tempo</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Ricerca Libera" aria-label="Search;" style="background-color: rgb(184, 189, 200);">
+              <button type="submit"><img src="imagini/search.svg"></button>
+          </form>
+        </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+         <div class="container">
+      <ul class="nav nav-tabs justify-content-center raised mb-4">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" id="link0" data-category="all">Tutti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="link1" data-category="musica">Musica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="link2" data-category="film">Film</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="link3" data-category="libri">Libri</a>
+        </li>
+      </ul>
+      </div>
+
+      <section class="container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="link" title="Torna alla Home">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+        </ol>
+      </nav>
+
+
+
+      <section>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <h5>Filtra per categoria</h5>
+            <div class="btn-group-vertical w-100">
+              <div class="btn-group dropend mb-2">
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-halfwidth" data-bs-toggle="dropdown" aria-expanded="false">
+                  Argomento
+                </button>
+                <ul class="dropdown-menu px-3 py-2" style="min-width: 220px;">
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Cosa Nostra
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Camorra
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      'Ndrangheta
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Sacra Corona Unita
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-2 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Mafia Foggiana
+                    </label>
+                  </li>
+                  <li class="text-center">
+                    <button type="button" class="btn btn-primary mt-2  w-100" id="bottone3">Filtra</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group dropend mb-2">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Anno
+                </button>
+                <ul class="dropdown-menu px-3 py-2" style="min-width: 220px;">
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      1993
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      2000
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      2010
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      2015
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-2 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      2023
+                    </label>
+                  </li>
+                  <li class="text-center">
+                    <button type="button" class="btn btn-primary mt-2  w-100" id="bottone2">Filtra</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group dropend mb-2">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Autore
+                </button>
+                <ul class="dropdown-menu px-3 py-2" style="min-width: 220px;">
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Giovanni Falcone
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Paolo Borsellino
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Giuseppe Fava
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-1 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Daniele Silvestri
+                    </label>
+                  </li>
+                  <li class="list-group-item p-0 mb-2 border-0 bg-transparent">
+                    <label class="d-flex align-items-center mb-0 w-100">
+                      <input class="form-check-input me-2" type="checkbox">
+                      Don Luigi Ciotti
+                    </label>
+                  </li>
+                  <li class="text-center">
+                    <button type="button" class="btn btn-primary mt-2  w-100" id="bottone1">Filtra</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-9">
+            <div class="row g-2">
+              <div class="col-12 col-md-4" data-category="musica">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/music-note-beamed.svg"> L'appello</h5>
+                    <p class="card-text">Autore: Silvestri, Daniele</p>
+                    <p class="card-text">Data: 2011</p>
+                    <p class="card-text">Tipo di risorsa: Musica</p>
+                    <a href="item.html" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="film">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/film.svg"> I cento passi</h5>
+                    <p class="card-text">Autore: Giordana, Marco Tulio</p>
+                    <p class="card-text">Data: 2000</p>
+                    <p class="card-text">Tipo di risorsa: Film</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="libri">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/book-half.svg"> Cose di Cosa Nostra</h5>
+                    <p class="card-text">Autore: Falcone, Giovanni; Padovani, Marcelle</p>
+                    <p class="card-text">Data: 2019</p>
+                    <p class="card-text">Tipo di risorsa: Libro</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="musica">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/music-note-beamed.svg"> Fight da Faida</h5>
+                    <p class="card-text">Autore: Frankie hi-rng mc</p>
+                    <p class="card-text">Data: 1993</p>
+                    <p class="card-text">Tipo di risorsa: Musica</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="libri">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/book-half.svg"> Processo alla Sicilia</h5>
+                    <p class="card-text">Autore: Fava, Giuseppe</p>
+                    <p class="card-text">Data: 2025</p>
+                    <p class="card-text">Tipo di risorsa: Libro</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="libri">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/book-half.svg"> Oltre il muro dell’omertà</h5>
+                    <p class="card-text">Autore: Borsellino, Paolo</p>
+                    <p class="card-text">Data: 2017</p>
+                    <p class="card-text">Tipo di risorsa: Libro</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="libri">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/book-half.svg"> Capire la mafia</h5>
+                    <p class="card-text">Autore: Silvis, Piernicola</p>
+                    <p class="card-text">Data: 2022</p>
+                    <p class="card-text">Tipo di risorsa: Libro</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="film">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/film.svg"> La mafia uccide solo d'estate</h5>
+                    <p class="card-text">Autore: Pif</p>
+                    <p class="card-text">Data: 2013</p>
+                    <p class="card-text">Tipo di risorsa: Film</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="musica">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/music-note-beamed.svg"> Non siete stato voi</h5>
+                    <p class="card-text">Autore: Caparezza</p>
+                    <p class="card-text">Data: 2011</p>
+                    <p class="card-text">Tipo di risorsa: Musica</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4" data-category="musica">
+                <div class="card border-dark mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="imagini/music-note-beamed.svg"> Libera Terra</h5>
+                    <p class="card-text">Autore: Modena City Ramblers</p>
+                    <p class="card-text">Data: 2009</p>
+                    <p class="card-text">Tipo di risorsa: Musica</p>
+                    <a href="javascript:void(0)" class="btn btn-primary" style="background-color: #212529; color:white;">Tutti i metadati</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+ 
+
+  <footer class="bg-dark text-light text-center py-3" style="width: 100%; height: 100%;">
+    <div>
+      <p class="text-white-50 mb-0"><a href="https://liberalivorno.github.io/Bancadati-Libera/">Bancadati Libera</a> © 2025 by Libera Livorno</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="tabella.js"></script>
+  </body>
+</html>
