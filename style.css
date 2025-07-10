@@ -196,8 +196,6 @@ ul.nav-tabs{
 .testo-table .row:last-child {
   border-bottom: none;
 }
-
-/* Responsive cards Esplora */
 @media (max-width: 767.98px) {
   .esplora-cards {
     display: flex;
@@ -209,8 +207,6 @@ ul.nav-tabs{
     margin: 0 auto;
   }
 }
-
-/* Migliora la spaziatura tra le card su mobile */
 @media (max-width: 767.98px) {
   .esplora-card + .esplora-card {
     margin-top: 1rem;
