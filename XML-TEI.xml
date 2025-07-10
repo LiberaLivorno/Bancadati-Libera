@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <listPerson>
+      <person xml:id="Borsellino">
+        <persName>Paolo Borsellino</persName>
+      </person>
+    </listPerson>
+    <listObject>
+      <object xml:id="AgendaRossa">
+        <objectName>agenda rossa</objectName>
+        <altName>quaderno</altName>
+      </object>
+    </listObject>
+    <listNym>
+      <nym xml:id="omerta">
+        <form>omertà</form>
+        <def>La tecnica di intimidazione e silenzio tipica delle organizzazioni mafiose.</def>
+      </nym>
+    </listNym>
+    <fileDesc>
+      <titleStmt>
+        <title>L'appello</title>
+        <author>Daniele Silvestri</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sony Music</publisher>
+        <date when="2011-03-29">29 marzo 2011</date>
+        <idno type="SBN">IT\ICCU\DDS\1688358</idno>
+        <idno type="ISRC">ITB001100099</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          Silvestri, Daniele. S.C.O.T.C.H. - Sony Music, 2011
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="genere">
+          <term>Ska</term>
+          <term>Musica d'autore</term>
+          <term>Jazz</term>
+          <term>Funk</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Trascrizione integrale del testo della canzone "L'appello" di Daniele Silvestri in formato TEI.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="song" xml:lang="it">
+        <head>L'appello</head>
+        <lg>
+          <l>Questo è un appello,</l>
+          <l>io sto cercando in giro mio fratello</l>
+          <l>scomparso all'improvviso a fine luglio</l>
+          <l>'mezzo ad un bordello,</l>
+          <l>e con addosso sembrerebbe solo un <name type="person" ref="#Borsellino" ana="allusion">piccolo borsello</name></l>
+          <l>e niente altro, però attenzione</l>
+          <l>perché mio fratello è scaltro,</l>
+          <l>che so magari per lo sdegno si è nascosto,</l>
+          <l>che è un uomo giusto fin troppo onesto</l>
+          <l>e mi dispiace anche per questo.</l>
+          <l>Dillo se tu ne sai qualcosa adesso devi dirlo,</l>
+          <l>non posso stare ancora io sul piedistallo</l>
+          <l>che quando parlo poi me ne pento,</l>
+          <l>ma se qualcuno deve farlo sono pronto</l>
+          <l>e ricomincio ancora con il mio racconto,</l>
+          <l>perché io ho lo stesso sangue e me ne vanto</l>
+          <l>e vi ricanto il ritornello</l>
+          <l>che ho perso mio fratello.</l>
+          <l>E non è bello lasciar fuggire un simile cervello,</l>
+          <l>io chiedo l'intervento del Governo</l>
+          <l>o del Ministro dell'Interno</l>
+          <l>che trovi almeno il suo <name type="object" ref="#AgendaRossa" ana="#altName">quaderno</name>.</l>
+          <l>E allora insisto</l>
+          <l>perché io mica posso andare a "Chi l'ha visto",</l>
+          <l>ma so che c'è qualcuno che sa tutto</l>
+          <l>uno che c'era, un pezzo grosso</l>
+          <l>ma adesso è troppo che l'aspetto.</l>
+          <l>Non può finire, non può sparire,</l>
+          <l>non può morire... così</l>
+          <l>Ma se penso al tempo che è passato</l>
+          <l>e quanto ancora passerà,</l>
+          <l>no non credo proprio che sia giusto</l>
+          <l>e che sia giusta questa orribile <term type="tecnica-mafiosa" ref="#omerta">omertà</term>,</l>
+          <l>perché si sa si saaa si saaa si saaa</l>
+          <l>che la faccenda è grossa</l>
+          <l>e per di più c'era un'<objectName xml:id="AgendaRossa">agenda rossa</objectName></l>
+          <l>e non si trova più.</l>
+          <l>Se posso aggiungerei che lui non è mai stato rosso,</l>
+          <l>anzi di Rosso conosceva solo quello</l>
+          <l>che canticchiava quel vecchio ritornello,</l>
+          <l>"che bello due amici una chitarra e uno spinello".</l>
+          <l>Questo è un appello</l>
+          <l>io sto cercando in giro mio fratello</l>
+          <l>scomparso all'improvviso a fine luglio</l>
+          <l>'mezzo al bordello,</l>
+          <l>e con addosso sembrerebbe solo un <name type="person" ref="#Borsellino" ana="allusion">piccolo borsello</name>,</l>
+          <l>piccolo, piccolo, piccolo... così</l>
+          <l>Ma se penso al tempo che è passato</l>
+          <l>e quanto ancora passerà,</l>
+          <l>noo non credo proprio che sia giusto</l>
+          <l>e che sia giusta questa orribile <term type="tecnica-mafiosa" ref="#omerta">omertà</term>,</l>
+          <l>perché si sa si saaa si saaa si saaa</l>
+          <l>che la faccenda è grossa</l>
+          <l>e per di più c'era un'<objectName xml:id="AgendaRossa">agenda rossa</objectName></l>
+          <l>e non si trova più.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

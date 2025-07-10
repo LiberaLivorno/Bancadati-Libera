@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="DC.Title" content="Bancadati Libera">
+    <meta name="DC.Creator" content="Libera Livorno">
+    <meta name="DC.Subject" content="Storia della mafia e cultura dell'antimafia">
+    <meta name="DC.Description" content="La Bancadati Libera nasce dalla necessità di fornire ad educatori e studiosi delle mafie uno strumento per accedere rapidamente a fonti con cui approfondire la propria conoscenza,
+           o di fornire indicazioni a chiunque voglia approfondirne la storia delle mafie e dell'antimafia. Il Catalogo prevede tre tipologie di media culturali divisi per categorie e tema: film, libri e musica.">
+    <meta name="DC.Publisher" content="Libera Livorno">
+    <meta name="DC.Contributor" content="Andrea Flavio Rossi">
+    <meta name="DC.Date" content="2025-07-09">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="IT\ICCU\DDS\1688358">
+    <meta name="DC.Relation" content="ITB001100099">
+    <link rel="DC.Coverage" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Rights" content="CC BY-NC-ND 4.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="type/jpeg" href="imagini/Logo_Libera.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="grafico.js"></script>
+    <title>Bancadati Libera</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1">
+          <img src="imagini/Logo_Libera.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Bancadati Libera</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Il-Progetto">Il Progetto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Esplora
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Catalogo.html"><img src="imagini/list-task.svg"> Catalogo</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="javascript:void(0)"><img src="imagini/pin-map.svg"> Mappa</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)"><img src="imagini/graph-up.svg"> Linea del tempo</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Ricerca Libera" aria-label="Search;" style="background-color: rgb(184, 189, 200);">
+              <button type="submit"><img src="imagini/search.svg"></button>
+          </form>
+        </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="imagini/impastato.jpg" class="d-block w-100 mx-auto" alt="Peppino Impastato" style="max-height: 650px; object-fit: cover; object-position: center;">
+          <div class="carousel-caption d-none d-md-block" style="font-weight: bold; color: #fff64e; background-color: hsl(0, 0%, 0%, 0.5);">
+            <p style="font-size: 60px;">Peppino Impastato</p>
+            <p>Giornalista, fondatore di Radio Aut</p>
+          </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagini/fava.jpg" class="d-block w-100" alt="Giuseppe Fava" style="max-height: 650px; object-fit: cover; object-position: center;">
+        <div class="carousel-caption d-none d-md-block" style="font-weight: bold; color: #ff9b44; background-color: hsl(0, 0%, 0%, 0.5);">
+        <p style="font-size: 60px;">Giuseppe Fava</p>
+        <p>Giornalista, fondatore del giornale I Siciliani</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagini/falcone e borsellino.jpg" class="d-block w-100" alt="Giovanni Falcone e Paolo Borsellino" style="max-height: 650px; object-fit: cover; object-position: center;">
+        <div class="carousel-caption d-none d-md-block" style="font-weight: bold; color: #f85bb1; background-color: hsl(0, 0%, 0%, 0.5);">
+        <p style="font-size: 60px;">Giovanni Falcone e Paolo Borsellino</p>
+        <p>Magistrati, legislatori, ideatori del Maxiprocesso</p>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="Il-Progetto">
+        <div class="container">
+          <h2>Il Progetto</h2>    
+          <p class="main">La Bancadati Libera nasce dalla necessità di fornire ad educatori e studiosi delle mafie uno strumento per accedere rapidamente a fonti con cui approfondire la propria conoscenza,
+           o di fornire indicazioni a chiunque voglia approfondirne la storia delle mafie e dell'antimafia. Il Catalogo prevede tre tipologie di media culturali divisi per categorie e tema: <em>film, libri</em> e<em> musica</em>.</p>
+        </div>
+      </section>
+      
+      <section class="Esplora bg-dark">
+        <div class="esplora-cards">
+          <div class="card border-dark mb-3 esplora-card esplora-card-left">
+            <div class="card-body">
+              <h5 class="card-title"><img src="imagini/list-task.svg"> Catalogo</h5>
+              <p class="card-text">In questa sezione puoi trovare una raccolta sempre in espansione di media culturali, come musica, libri e cinema, che raccontano storie di mafia e dell'antimafia.</p>
+              <a href="Catalogo.html" class="btn btn-primary" id="bottone3">Approfondisci!</a>
+            </div>
+          </div>
+          <div class="card border-dark mb-3 esplora-card esplora-card-center">
+            <div class="card-body">
+              <h5 class="card-title"><img src="imagini/pin-map.svg"> Mappa</h5>
+              <p class="card-text">In questa sezione puoi trovare una mappa interattiva dei principali avvenimenti e ricorrenze.</p>
+              <a href="javascript:void(0)" class="btn btn-primary" id="bottone2">Approfondisci!</a>
+            </div>
+          </div>
+          <div class="card border-dark mb-3 esplora-card esplora-card-right">
+            <div class="card-body">
+              <h5 class="card-title"><img src="imagini/graph-up.svg"> Linea del tempo</h5>
+              <p class="card-text">In questa sezione puoi trovare una linea del tempo che ripercorre le tappe fondamenti della storia dei movimenti antimafia.</p>
+              <a href="javascript:void(0)" class="btn btn-primary" id="bottone1">Approfondisci!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>  
+    <section class="grafico hero-image">
+      <div id="piechart" style="width: 900px; height: 500px;"></div>
+    </section>
+  <footer class="bg-dark text-light text-center py-3" style="width: 100%; height: 100%;">
+    <div>
+      <p class="text-white-50 mb-0"><a href="https://www.github.com">Bancadati Libera</a> © 2025 by Libera Livorno</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
