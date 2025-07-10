@@ -196,3 +196,28 @@ ul.nav-tabs{
 .testo-table .row:last-child {
   border-bottom: none;
 }
+
+/* Responsive cards Esplora */
+@media (max-width: 767.98px) {
+  .esplora-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .esplora-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Migliora la spaziatura tra le card su mobile */
+@media (max-width: 767.98px) {
+  .esplora-card + .esplora-card {
+    margin-top: 1rem;
+  }
+  .esplora-card-left,
+  .esplora-card-right {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
