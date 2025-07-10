@@ -215,4 +215,9 @@ ul.nav-tabs{
   .esplora-card + .esplora-card {
     margin-top: 1rem;
   }
+  .esplora-card-left,
+  .esplora-card-right {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
