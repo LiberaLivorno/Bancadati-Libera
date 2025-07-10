@@ -196,6 +196,7 @@ ul.nav-tabs{
 .testo-table .row:last-child {
   border-bottom: none;
 }
+
 @media (max-width: 767.98px) {
   .esplora-cards {
     display: flex;
